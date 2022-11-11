@@ -19,19 +19,19 @@ const VideoPlay = () => {
         <source src={VideoSrc} type="video/mp4" />
         {/* <source src="rabbit320.webm" type="video/webm" /> */}
       </video>
-      <div class="controls">
+      <div className="controls">
         <button
           class="play"
           data-icon="P"
           aria-label="play pause toggle"
         ></button>
-        <button class="stop" data-icon="S" aria-label="stop"></button>
+        <button className="stop" data-icon="S" aria-label="stop"></button>
         <div class="timer">
           <div></div>
           <span aria-label="timer">00:00</span>
         </div>
-        <button class="rwd" data-icon="B" aria-label="rewind"></button>
-        <button class="fwd" data-icon="F" aria-label="fast forward"></button>
+        <button className="rwd" data-icon="B" aria-label="rewind"></button>
+        <button className="fwd" data-icon="F" aria-label="fast forward"></button>
       </div>
     </div>
   );
