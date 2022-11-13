@@ -9,17 +9,16 @@ import { DefaultPlayer as Video } from 'react-html5video';
 const VideoPlay = () => {
 
   return (
-
     // <Video autoPlay loop >
     //     <source src={ VideoSrc } type='video/webm'/>
     //  </Video>
 
     <div className="player">
       <video controls>
-        <source src={VideoSrc} type="video/mp4" />
+        <source src={VideoSrc} type="video/mp4" controls autoplay />
         {/* <source src="rabbit320.webm" type="video/webm" /> */}
       </video>
-      <div className="controls">
+      {/* <div className="controls">
         <button
           class="play"
           data-icon="P"
@@ -32,7 +31,7 @@ const VideoPlay = () => {
         </div>
         <button className="rwd" data-icon="B" aria-label="rewind"></button>
         <button className="fwd" data-icon="F" aria-label="fast forward"></button>
-      </div>
+      </div> */}
     </div>
   );
 }
