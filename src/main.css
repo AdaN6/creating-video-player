@@ -1,7 +1,8 @@
-.body-container{
+.body_container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 32px;
    
 }
 
@@ -11,6 +12,38 @@
     align-items: center;
 }
 
-.not_friday_text{
+.not_friday_text .not_friday_day{
  color: rgb(41, 41, 41);
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+h3 {
+ font-size: 20px ;
+}
+
+.question {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.not_friday_day {
+    margin-bottom: 24px;
+}
+
+.friday_text {
+    margin-bottom: 32px;
 }

@@ -27,22 +27,23 @@ function App() {
 
   return (
     <div>
-      <div className="body-container">
-        <h1>Today is</h1>
+      <div className="body_container">
+        <h1 className="question">What day is today?</h1>
         {day === "Friday" ? (
-          <div className="body-container">
-            <h1>you will find out from the video</h1> <Video />
+          <div className="body_container">
+            <h2 className="friday_text">you will find out from the video</h2> <Video />
           </div>
         ) : (
           <div className="not_friday_container">
-            <h1 className="not_friday_text">{day} ...</h1>
+            <h2 className="not_friday_text">Today is</h2>
+            <h1 className="not_friday_day">! {day} !</h1>
             <h2>nope, not today... no video sorry!</h2>
             <iframe
               src="https://giphy.com/embed/MuztdWJQ4PR7i"
               width="410"
               height="480"
               frameBorder="0"
-              class="giphy-embed"
+              className="giphy-embed"
               allowFullScreen
             ></iframe>
             <p>
