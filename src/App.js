@@ -34,7 +34,22 @@ function App() {
             <h1>you will find out from the video</h1> <Video />
           </div>
         ) : (
-          <h1>{day} FCK OFF!</h1>
+          <div className="not_friday_container">
+            <h1 className="not_friday_text">
+              {day}.. nope, not today... no video sorry!
+            </h1>
+            <iframe
+              src="https://giphy.com/embed/MuztdWJQ4PR7i"
+              width="410"
+              height="480"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+            <p>
+              <a href="https://giphy.com/gifs/MuztdWJQ4PR7i">via GIPHY</a>
+            </p>
+          </div>
         )}
       </div>
     </div>

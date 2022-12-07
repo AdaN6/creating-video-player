@@ -4,3 +4,13 @@
     align-items: center;
    
 }
+
+.not_friday_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not_friday_text{
+ color: rgb(41, 41, 41);
+}
