@@ -35,9 +35,8 @@ function App() {
           </div>
         ) : (
           <div className="not_friday_container">
-            <h1 className="not_friday_text">
-              {day}.. nope, not today... no video sorry!
-            </h1>
+            <h1 className="not_friday_text">{day} ...</h1>
+            <h2>nope, not today... no video sorry!</h2>
             <iframe
               src="https://giphy.com/embed/MuztdWJQ4PR7i"
               width="410"
