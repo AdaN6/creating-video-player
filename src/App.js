@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
       <div className="body_container">
-        <h1 className="question">What day is today?</h1>
+        <h1 className="question">What day is it today?</h1>
         {day === "Friday" ? (
           <div className="body_container">
             <h2 className="friday_text">you will find out from the video</h2> <Video />
